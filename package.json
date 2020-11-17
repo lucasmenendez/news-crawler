@@ -1,0 +1,21 @@
+{
+  "name": "crawler",
+  "version": "0.0.1",
+  "description": "Article crawler service for web scraping",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-modules main.js"
+  },
+  "author": "100cia",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pabloduque0/solid-dollop"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "puppeteer": "1.19.0",
+    "unfluff": "^3.2.0"
+  }
+}
